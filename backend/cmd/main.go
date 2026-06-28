@@ -6,10 +6,9 @@ import (
 	"log"
 	"os"
 
-	_ "github.com/lib/pq"
+	_ "github.com/lib/pq" // _ is used to import the package without using it directly
 	"gopkg.in/yaml.v3"
 )
-
 
 // request payload struct
 type RegisterRequest struct {
