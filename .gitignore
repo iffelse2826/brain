@@ -1,0 +1,5 @@
+# Database configuration containing sensitive credentials
+backend/config/config.yaml
+
+# Go build binaries
+backend/main
